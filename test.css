@@ -10,5 +10,23 @@ form{
 	background-color: tomato;
 	padding: 0;
 	margin: 0;
+	display: flexbox;
+	
 }
-
+table{
+	background-color: fuchsia;
+}
+tr{
+	background-color: forestgreen;
+}
+.match{
+	background-color: tomato;
+	font-family:  cursive;
+}
+.funciones{
+	background-color: navy;
+	color: gold;
+}
+h1{
+	background-color: indigo;
+}
