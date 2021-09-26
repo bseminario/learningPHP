@@ -88,5 +88,17 @@
 
     </section>
     <a href="https://youtu.be/cAdBqOI8gwQ?list=PLZ2ovOgdI-kUSqWuyoGJMZL6xldXw6hIg&t=274">Curso PHP me quede aqui</a>
+    <h1>Creando bucle para imagenes en LaTEx</h1>
+    
+            
+            
+    
+    
+
+    <?php for($i=1;$i<28;$i++){
+        echo "<p>\begin{figure}[H]</p><br><p>\centering</p>";
+        echo "<p>\includegraphics[width=\textwidth]{img3/1 ($i).png}</p>";
+        echo "<p>\\end{figure}</p>";
+    }?>
 </body>
 </html>
