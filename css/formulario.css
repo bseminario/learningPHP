@@ -3,12 +3,23 @@
     margin: 0;
     padding: 0;
 }
+html{
+	font-family:verdana;
+	font-size:2rem;
+}
 form{
     background-color: cornflowerblue;
-    padding: 50px;
-    margin: 20px;
+    padding: 10%;
+    margin: 10%;
     border: crimson solid;
 }
+
 .botonEnvio{
-    background-color: crimson;
+    background-color: navy;
+    font-size:2rem;
+    font-family:cursive;
+}
+input{
+	font-size:1.2rem;
+	font-family:cursive;
 }
